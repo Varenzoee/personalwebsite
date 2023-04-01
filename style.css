@@ -1,0 +1,126 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wraper {
+    background-image: url(foto/bg.png);
+    background-size: cover;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 64px 128px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+}
+
+#header h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0 0 0 0;
+    color: #301313;
+}
+.menu a {
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.511);
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+.sosmed i {
+    margin-left: 24px;
+}
+
+.sosmed i:hover {
+    color: #000000;
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#landing h1 {
+    padding-top: 70px;
+    font-size: 140px;
+    line-height: 130px;
+    letter-spacing: -5px;
+    font-weight: 600;
+    margin: 0;
+    color: #000000;
+    opacity: 0.7;
+
+}
+
+.card-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 16px 16px 16px -4px rgba(10, 99, 169, 0.16),
+    -16px -16px 16px -4px rgba(255, 255, 255, 0.70);
+    border-radius: 6px;
+}
+
+.about-person {
+    column-gap: 26px;
+}
+.my-name h1 {
+    font-size: 32px;
+    line-height: -16px;
+    margin: 0 0;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.my-name p {
+    font-size: 14px;
+    color: #231a1a;
+    opacity: 0.8;
+}
+
+.personal {
+    display: flex;
+    font-size: 14px;
+    padding: 0;
+    column-gap: 60px;
+}
+
+.personal, h3 {
+    line-height: 80%;
+}
+
+.personal-one .personal-two {
+    margin: 0 0;
+}
+
+.cv {
+    margin-top: 16px;
+}
+
+.cv button {
+    padding: 10px 24px;
+    background-color: #ABFF8D33;
+    border: none;
+    box-shadow: 3px 3px 3px -1px rgba(10, 99, 169, 0.16),
+    -3px 3px 3px -1px rgba(255, 255, 255, 0.70);
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: initial;
+}
