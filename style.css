@@ -180,7 +180,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px;
+    margin: 16px;
 }
 .image-news img {
     width: 446px;
@@ -196,10 +196,22 @@ section {
     margin: 0px;
     margin-bottom: 10px;
 }
+.news-title p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+
+.date span {
+    margin-left: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+}
 
 .read-more button {
     color: #000000;
     background:transparent;
     border: 1px solid #000000;
     border-radius: 8px;
+    padding: 6px 15px;
 }
