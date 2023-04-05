@@ -4,7 +4,7 @@
 }
 
 .wraper {
-    background-image: url(foto/bg.png);
+  background-color: white;
     background-size: cover;
 }
 
@@ -73,9 +73,11 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #303030;
     box-shadow: 16px 16px 16px -4px rgba(10, 99, 169, 0.16),
-    -16px -16px 16px -4px rgba(255, 255, 255, 0.70);
+    -16px -16px 16px -4px rgba(255, 255, 255, 0.7);
     border-radius: 6px;
+    margin-top: 60px;
 }
 
 .about-person {
@@ -85,14 +87,14 @@ section {
     font-size: 32px;
     line-height: -16px;
     margin: 0 0;
-    color: #000000;
-    opacity: 0.8;
+    color: #ffffff;
+    /* opacity: 0.8; */
 }
 
 .my-name p {
     font-size: 14px;
-    color: #231a1a;
-    opacity: 0.8;
+    color: #ffffff;
+    /* opacity: 0.8; */
 }
 
 .personal {
@@ -100,6 +102,7 @@ section {
     font-size: 14px;
     padding: 0;
     column-gap: 60px;
+    color: white;
 }
 
 .personal, h3 {
@@ -116,11 +119,87 @@ section {
 
 .cv button {
     padding: 10px 24px;
-    background-color: #ABFF8D33;
+    background-color: transparent;
     border: none;
-    box-shadow: 3px 3px 3px -1px rgba(10, 99, 169, 0.16),
-    -3px 3px 3px -1px rgba(255, 255, 255, 0.70);
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     cursor: pointer;
     font-style: initial;
+}
+
+#portofolio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.title span {
+    margin: 40px;
+    color: white;
+}
+.gallery-box {
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.gallery-box .grid-item {
+    cursor: pointer;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.gallery-box .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: .3s;
+}
+
+.gallery-box .grid-item:hover img {
+    filter: brightness(.5);
+}
+
+#blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blog-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+.image-news img {
+    width: 446px;
+    height: 280px;
+}
+
+.news {
+    margin-left: 46px;
+    line-height: 26px;
+}
+
+.news-title h2{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.read-more button {
+    color: #000000;
+    background:transparent;
+    border: 1px solid #000000;
+    border-radius: 8px;
 }
